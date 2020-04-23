@@ -19,7 +19,7 @@ public class TestController {
 	@RequestMapping("/hello3")
 	public ResponseEntity<String> hello3() {
 		
-		return new ResponseEntity<String>("hello world 3 !", new HttpHeaders(), HttpStatus.OK);
+		return new ResponseEntity<String>("hello world 4 !", new HttpHeaders(), HttpStatus.OK);
 	}
 
 	@RequestMapping("/hello2")
