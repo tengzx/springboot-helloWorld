@@ -18,6 +18,7 @@ public class TestController {
 	
 	@RequestMapping("/hello3")
 	public ResponseEntity<String> hello3() {
+		System.out.println("==------------------------------s");
 		
 		return new ResponseEntity<String>("hello world 4 !", new HttpHeaders(), HttpStatus.OK);
 	}
