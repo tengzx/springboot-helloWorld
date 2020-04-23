@@ -15,6 +15,12 @@ public class TestController {
 		
 		return new ResponseEntity<String>("hello world!", new HttpHeaders(), HttpStatus.OK);
 	}
+	
+	@RequestMapping("/hello3")
+	public ResponseEntity<String> hello3() {
+		
+		return new ResponseEntity<String>("hello world 3 !", new HttpHeaders(), HttpStatus.OK);
+	}
 
 	@RequestMapping("/hello2")
 	public ResponseEntity<String> hello(String value) {
